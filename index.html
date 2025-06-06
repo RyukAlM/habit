@@ -7,14 +7,14 @@
 </head>
 <body>
   <div id="login-screen" class="container">
-    <img src="../pessoa.jpg" alt="Foto de Login" class="profile-pic">
+    <img src="pessoa.jpg" alt="Foto de Login" class="profile-pic">
     <h2>Bem-vinda, momo!!</h2>
     <input type="password" id="password" placeholder="Digite sua senha">
     <button onclick="login()">Entrar</button>
   </div>
 
   <div id="main-screen" class="container hidden">
-    <img src="../casal.jpg" alt="Foto do Casal" class="profile-pic" id="casalFoto">
+    <img src="casal.jpg" alt="Foto do Casal" class="profile-pic" id="casalFoto">
     <h2>Tempo juntas:</h2>
     <p id="tempo-juntas"></p>
     <audio id="audio" autoplay>
@@ -30,7 +30,7 @@
       <div id="carousel">
         <button id="prevBtn">←</button>
         <div id="carouselImageWrapper">
-          <img id="carouselImage" src="../foto1.jpg" alt="Foto 1">
+          <img id="carouselImage" src="foto1.jpg" alt="Foto 1">
           <p id="carouselCaption">Começo de tudo, meio bagunçado, mas cheio de amor.</p>
         </div>
         <button id="nextBtn">→</button>
@@ -42,7 +42,7 @@
   <!-- Modal Primeira Vez -->
   <div id="primeiraVezModal" class="modal hidden">
     <div class="modal-inner">
-      <img src="../primeira-vez.jpg" alt="Primeira Vez" class="modal-image">
+      <img src="primeira-vez.jpg" alt="Primeira Vez" class="modal-image">
       <p id="primeiraVezModal">Primeira vez que nos vimos pessoalmente, consigo me lembrar da sensação.</p>
       <button class="modal-close" onclick="fecharPrimeiraVez()">Fechar</button>
     </div>
@@ -55,27 +55,25 @@
       <div id="coroes-container"></div>
       <button class="modal-close" onclick="fecharJoguinho()">Fechar</button>
     </div>
-    
+  </div>
+
+  <!-- Modal Letras (Easter Egg B) -->
+  <div id="letrasModal" class="modal hidden">
+    <div class="modal-inner">
+      <h3>Músicas que me lembra você</h3>
+      <div id="letrasCarousel">
+        <button id="letrasPrevBtn">←</button>
+        <img id="letrasImage" src="letra1.jpg" alt="Letra 1" style="max-width: 80%; border-radius: 10px;">
+        <button id="letrasNextBtn">→</button>
+      </div>
+      <button class="modal-close" onclick="fecharLetras()">Fechar</button>
+    </div>
   </div>
 
   <script src="script.js"></script>
-
-<!-- Modal Letras (Easter Egg B) -->
-<div id="letrasModal" class="modal hidden">
-  <div class="modal-inner">
-    <h3>Músicas que me lembra você</h3>
-    <div id="letrasCarousel">
-      <button id="letrasPrevBtn">←</button>
-      <img id="letrasImage" src="../letra1.jpg" alt="Letra 1" style="max-width: 80%; border-radius: 10px;">
-      <button id="letrasNextBtn">→</button>
-    </div>
-    <button class="modal-close" onclick="fecharLetras()">Fechar</button>
-  </div>
-</div>
-
-
 </body>
 </html>
+
 
 
 
