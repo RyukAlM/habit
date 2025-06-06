@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url('../fundo.jpg');
+  background-image: url('img/fundo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 
 .container {
   text-align: center;
-  background-image: url('../girassol.jpg');
+  background-image: url('img/girassol.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -189,7 +189,7 @@ button:hover {
 .coracao {
   width: 40px;
   height: 40px;
-  background-image: url('../coração.webp');
+  background-image: url('img/coração.webp');
   background-size: cover;
   cursor: pointer;
 }
@@ -202,7 +202,7 @@ button:hover {
 .coracao {
   width: 40px;
   height: 40px;
-  background-image: url('../coração.webp');
+  background-image: url('img/coração.webp');
   background-size: cover;
   cursor: pointer;
   animation: pulse 1.5s infinite;
