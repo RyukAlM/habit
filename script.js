@@ -55,9 +55,9 @@ function mostrarTempoJuntos() {
 
 // Álbum com navegação
 const fotos = [
-  { src: "../foto1.jpg", legenda: "You do me right." },
-  { src: "../foto2.jpg", legenda: "You stay by my side." },
-  { src: "../foto3.jpg", legenda: "Through thick and thin." }
+  { src: "img/foto1.jpg", legenda: "You do me right." },
+  { src: "img/foto2.jpg", legenda: "You stay by my side." },
+  { src: "img/foto3.jpg", legenda: "Through thick and thin." }
 ];
 
 let indexAtual = 0;
@@ -176,17 +176,17 @@ function mostrarMensagemFinal() {
 document.addEventListener("DOMContentLoaded", () => {
   // Array com as imagens
   const imagensLetras = [
-    "../letra1.jpg",
-    "../letra2.jpg",
-    "../letra3.jpg",
-    "../letra4.jpg",
-    "../letra5.jpg",
-    "../letra6.jpg",
-    "../letra7.jpg",
-    "../letra8.jpg",
-    "../letra9.jpg",
-    "../letra10.jpg",
-    "../letra11.jpg"
+    "img/letra1.jpg",
+    "img/letra2.jpg",
+    "img/letra3.jpg",
+    "img/letra4.jpg",
+    "img/letra5.jpg",
+    "img/letra6.jpg",
+    "img/letra7.jpg",
+    "img/letra8.jpg",
+    "img/letra9.jpg",
+    "img/letra10.jpg",
+    "img/letra11.jpg"
   ];
 
   let indexLetra = 0;
